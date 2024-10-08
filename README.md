@@ -1,4 +1,8 @@
 # Docker setup to run intel realsense
+
+## Preparation:
+Install docker engine.
+
 ## Setup
 Building the container:
 ```
@@ -24,3 +28,7 @@ Open another session for interaction:
 ```
 docker exec -it rs_container /bin/bash
 ```
+
+
+## Credits:
+Dockerfile inspired by [https://github.com/iory/docker-ros-realsense](https://github.com/iory/docker-ros-realsense).
